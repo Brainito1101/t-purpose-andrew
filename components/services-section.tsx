@@ -29,7 +29,7 @@ const services = [
       "https://storage.googleapis.com/msgsndr/xQlIEgJuDpymPFH4Fs60/media/68ac6f7754de70063754d0a2.webp",
       "https://storage.googleapis.com/msgsndr/xQlIEgJuDpymPFH4Fs60/media/6937dc4faba1f661b7c7a5c8.webp",
     ],
-    formId: "rAt5dTX0IBICsbzgQCTq", // workshop form
+    formId: "M7dgcQMwtNYUWzEbEjta", // workshop form
   },
   {
     title: "1-on-1 Mentorship",
@@ -39,7 +39,7 @@ const services = [
       "https://storage.googleapis.com/msgsndr/xQlIEgJuDpymPFH4Fs60/media/68b1b1cc179a825b878180bf.webp",
       "https://storage.googleapis.com/msgsndr/xQlIEgJuDpymPFH4Fs60/media/68b1b1cc4c89d647364da128.webp",
     ],
-    formId: "oFkkgW6Y1q1cLN3ksbOt", // mentorship form
+    formId: "CtOXH4T6hC2OADmnkTdR", // mentorship form
   },
 ]
 

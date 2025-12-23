@@ -36,7 +36,7 @@ export default function BookPage() {
     "offers": {
       "@type": "Offer",
       "availability": "https://schema.org/PreOrder",
-      "url": "https://link.fastpaydirect.com/payment-link/68c03563219709986ee1b7e1"
+      "url": "https://link.fastpaydirect.com/payment-link/694a63c235b562c128100639"
     }
   }
 

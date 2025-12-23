@@ -337,7 +337,7 @@ export default function HeroSlider() {
         >
           <div className="relative w-full h-full sm:w-[90%] sm:h-[90%] max-w-2xl max-h-[90vh]">
             <iframe
-              src="https://api.leadconnectorhq.com/widget/form/0kC4by8DcwpDYeFfKWno"
+              src="https://api.leadconnectorhq.com/widget/form/2SGCFyFPQfnC1FwQcP2n"
               style={{
                 width: "100%",
                 height: "100%",
@@ -345,7 +345,7 @@ export default function HeroSlider() {
                 borderRadius: "8px",
                 background: "white",
               }}
-              id="popup-0kC4by8DcwpDYeFfKWno"
+              id="popup-2SGCFyFPQfnC1FwQcP2n"
               title="Email-Pdf"
             ></iframe>
             <button

@@ -70,7 +70,7 @@ export default function StyledGHLPopup() {
           {/* Form Container */}
           <div className="overflow-y-auto" style={{ maxHeight: '95vh' }}>
             <iframe
-              src="https://api.leadconnectorhq.com/widget/form/0kC4by8DcwpDYeFfKWno"
+              src="https://api.leadconnectorhq.com/widget/form/2SGCFyFPQfnC1FwQcP2n"
               id="ghl-form-iframe"
               className="w-full border-0"
               style={{
@@ -81,7 +81,7 @@ export default function StyledGHLPopup() {
               data-layout='{"id":"INLINE"}'
               data-trigger-type="manual"
               data-activation-type="alwaysActivated"
-              data-form-id="0kC4by8DcwpDYeFfKWno"
+              data-form-id="2SGCFyFPQfnC1FwQcP2n"
               title="7-Day Reset Form"
             ></iframe>
           </div>
