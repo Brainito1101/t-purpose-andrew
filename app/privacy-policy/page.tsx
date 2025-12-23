@@ -1,0 +1,532 @@
+import React from "react"
+import type { Metadata } from "next"
+import Script from "next/script"
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | How Andrew Dietz Protects Your Data",
+  description: "Learn how your information is collected, stored, and protected across Andrew Dietz’s website and services.",
+  alternates: {
+    canonical: "https://www.andrew-dietz.com/privacy-policy",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+}
+
+export default function PrivacyPolicy() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Privacy Policy",
+    "description": "Privacy Policy for Andrew Dietz website and services",
+    "datePublished": "2025-08-08",
+    "inLanguage": "en-US"
+  }
+
+  return (
+    <main className="min-h-screen bg-gray-50">
+      <Script
+        id="privacy-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      {/* Header Section */}
+      <div className="bg-white border-b border-gray-200">
+        <div className="max-w-4xl mx-auto px-6 py-12 text-center">
+          <h1 className="text-3xl md:text-4xl font-light text-gray-900 mb-3">
+            Privacy Policy
+          </h1>
+          <p className="text-sm text-gray-600">
+            Effective Date: August 8, 2025
+          </p>
+        </div>
+      </div>
+
+      {/* Content Section */}
+      <div className="max-w-4xl mx-auto px-6 py-12">
+        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8 md:p-12">
+          <section className="space-y-10 text-gray-700">
+            
+            {/* Introduction */}
+            <div className="prose prose-sm max-w-none">
+              <p className="text-sm leading-relaxed mb-6">
+                Andrew Dietz ("us", "we", or "our") operates the website{" "}
+                <a 
+                  href="https://andrew-dietz.com" 
+                  className="text-gray-900 hover:text-gray-700 transition-colors duration-200 font-medium underline decoration-gray-300 hover:decoration-gray-500" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  andrew-dietz.com
+                </a>{" "}
+                and related services including happiness coaching sessions, online courses, workshops, and events (the "Service").
+              </p>
+
+              <p className="text-sm leading-relaxed mb-6">
+                Andrew Dietz also utilizes various third-party platforms and service providers including but not limited to scheduling platforms, payment processors, email marketing services, and analytics tools as additional service providers along with associated applications (the "Service").
+              </p>
+
+              <p className="text-sm leading-relaxed mb-8">
+                This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.
+              </p>
+            </div>
+
+            {/* Definitions */}
+            <div className="border-l-2 border-gray-300 pl-6">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <span className="w-7 h-7 bg-gray-900 text-white rounded-full flex items-center justify-center text-xs font-medium mr-3">1</span>
+                Definitions
+              </h2>
+              <div className="space-y-4">
+                <div>
+                  <h3 className="font-medium text-gray-900 text-sm mb-2">Service</h3>
+                  <p className="text-sm leading-relaxed">Service means the andrew-dietz.com website, along with happiness coaching sessions, online courses, workshops, mobile applications, and associated services provided and operated by Andrew Dietz along with our third-party service providers.</p>
+                </div>
+                <div>
+                  <h3 className="font-medium text-gray-900 text-sm mb-2">Personal Data</h3>
+                  <p className="text-sm leading-relaxed">Personal Data means data about a living individual who can be identified from those data (or from those and other information either in our possession or likely to come into our possession).</p>
+                </div>
+                <div>
+                  <h3 className="font-medium text-gray-900 text-sm mb-2">Usage Data</h3>
+                  <p className="text-sm leading-relaxed">Usage Data is data collected automatically either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).</p>
+                </div>
+                <div>
+                  <h3 className="font-medium text-gray-900 text-sm mb-2">Cookies</h3>
+                  <p className="text-sm leading-relaxed">Cookies are small pieces of data stored on your device (computer or mobile device).</p>
+                </div>
+                <div>
+                  <h3 className="font-medium text-gray-900 text-sm mb-2">Data Controller</h3>
+                  <p className="text-sm leading-relaxed">Data Controller means the natural or legal person who determines the purposes for which and the manner in which any personal information are processed. For the purpose of this Privacy Policy, we are a Data Controller of your Personal Data.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Information Collection */}
+            <div className="border-l-2 border-gray-300 pl-6">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <span className="w-7 h-7 bg-gray-900 text-white rounded-full flex items-center justify-center text-xs font-medium mr-3">2</span>
+                Information Collection and Use
+              </h2>
+              <p className="text-sm leading-relaxed mb-4">We collect several different types of information for various purposes to provide and improve our Service to you.</p>
+              
+              <h3 className="font-medium text-gray-900 text-sm mb-3 mt-6">Types of Data Collected</h3>
+              
+              <div className="space-y-4">
+                <div>
+                  <h4 className="font-medium text-gray-900 text-sm mb-2">Personal Data</h4>
+                  <p className="text-sm leading-relaxed mb-3">While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:</p>
+                  <div className="space-y-2 ml-4">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-sm">Email address</p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-sm">First name and last name</p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-sm">Phone number</p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-sm">Address, State, Province, ZIP/Postal code, City</p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-sm">Cookies and Usage Data</p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-sm">Such other data that may be necessary for organization and scheduling of our coaching sessions and workshops</p>
+                    </div>
+                  </div>
+                  <p className="text-sm leading-relaxed mt-3">We may use your Personal Data to contact you with newsletters, marketing or promotional materials and other information that may be of interest to you. You may opt out of receiving any, or all, of these communications from us by following the unsubscribe link or instructions provided in any email we send.</p>
+                </div>
+
+                <div>
+                  <h4 className="font-medium text-gray-900 text-sm mb-2">Usage Data</h4>
+                  <p className="text-sm leading-relaxed mb-3">We may also collect information that your browser sends whenever you visit our Service or when you access the Service by or through a mobile device ("Usage Data").</p>
+                  <p className="text-sm leading-relaxed mb-3">This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
+                  <p className="text-sm leading-relaxed">When you access the Service by or through a mobile device, this Usage Data may include information such as the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Tracking & Cookies */}
+            <div className="border-l-2 border-gray-300 pl-6">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <span className="w-7 h-7 bg-gray-900 text-white rounded-full flex items-center justify-center text-xs font-medium mr-3">3</span>
+                Tracking & Cookies Data
+              </h2>
+              <p className="text-sm leading-relaxed mb-4">We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.</p>
+              <p className="text-sm leading-relaxed mb-4">Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.</p>
+              <p className="text-sm leading-relaxed mb-4">You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.</p>
+              
+              <h3 className="font-medium text-gray-900 text-sm mb-3">Examples of Cookies we use:</h3>
+              <div className="space-y-2 ml-4">
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm"><span className="font-medium">Session Cookies:</span> We use Session Cookies to operate our Service.</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm"><span className="font-medium">Preference Cookies:</span> We use Preference Cookies to remember your preferences and various settings.</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm"><span className="font-medium">Security Cookies:</span> We use Security Cookies for security purposes.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Use of Data */}
+            <div className="border-l-2 border-gray-300 pl-6">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <span className="w-7 h-7 bg-gray-900 text-white rounded-full flex items-center justify-center text-xs font-medium mr-3">4</span>
+                Use of Data
+              </h2>
+              <p className="text-sm leading-relaxed mb-4">Andrew Dietz uses the collected data for various purposes:</p>
+              <div className="space-y-2 ml-4">
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm">To provide and maintain our Service</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm">To notify you about changes to our Service</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm">To allow you to participate in interactive features of our Service when you choose to do so</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm">To provide customer support</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm">To gather analysis or valuable information so that we can improve our Service</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm">To monitor the usage of our Service</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm">To detect, prevent and address technical issues</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm">To provide you with news, special offers and general information about other coaching services, courses and events which we offer that are similar to those that you have already purchased or enquired about unless you have opted not to receive such information</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Legal Basis GDPR */}
+            <div className="border-l-2 border-gray-300 pl-6">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <span className="w-7 h-7 bg-gray-900 text-white rounded-full flex items-center justify-center text-xs font-medium mr-3">5</span>
+                Legal Basis for Processing Personal Data Under GDPR
+              </h2>
+              <p className="text-sm leading-relaxed mb-4">If you are from the European Economic Area (EEA), Andrew Dietz's legal basis for collecting and using the personal information described in this Privacy Policy depends on the Personal Data we collect and the specific context in which we collect it.</p>
+              <p className="text-sm leading-relaxed mb-4">Andrew Dietz may process your Personal Data because:</p>
+              <div className="space-y-2 ml-4">
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm">We need to perform a contract with you</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm">You have given us permission to do so</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm">The processing is in our legitimate interests and it's not overridden by your rights</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm">For payment processing purposes</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm">To comply with the law</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Data Retention */}
+            <div className="border-l-2 border-gray-300 pl-6">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <span className="w-7 h-7 bg-gray-900 text-white rounded-full flex items-center justify-center text-xs font-medium mr-3">6</span>
+                Retention of Data
+              </h2>
+              <p className="text-sm leading-relaxed mb-4">Andrew Dietz will retain your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your Personal Data to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our legal agreements and policies.</p>
+              <p className="text-sm leading-relaxed">Andrew Dietz will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of our Service, or we are legally obligated to retain this data for longer time periods.</p>
+            </div>
+
+            {/* Service Providers */}
+            <div className="border-l-2 border-gray-300 pl-6">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <span className="w-7 h-7 bg-gray-900 text-white rounded-full flex items-center justify-center text-xs font-medium mr-3">7</span>
+                Service Providers
+              </h2>
+              <p className="text-sm leading-relaxed mb-4">We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.</p>
+              <p className="text-sm leading-relaxed mb-4">These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>
+              
+              <p className="text-sm leading-relaxed mb-4">We use trusted providers such as:</p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                <div className="flex items-center space-x-3 bg-gray-50 rounded-md p-3 border border-gray-200">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
+                  <span className="text-sm">Stripe, PayPal – for payment processing</span>
+                </div>
+                <div className="flex items-center space-x-3 bg-gray-50 rounded-md p-3 border border-gray-200">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
+                  <span className="text-sm">Calendly – for scheduling sessions</span>
+                </div>
+                <div className="flex items-center space-x-3 bg-gray-50 rounded-md p-3 border border-gray-200">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
+                  <span className="text-sm">Google Analytics – for usage tracking</span>
+                </div>
+                <div className="flex items-center space-x-3 bg-gray-50 rounded-md p-3 border border-gray-200">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
+                  <span className="text-sm">ConvertKit, Mailchimp – for email marketing</span>
+                </div>
+                <div className="flex items-center space-x-3 bg-gray-50 rounded-md p-3 border border-gray-200">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
+                  <span className="text-sm">Zoom – for online coaching sessions</span>
+                </div>
+                <div className="flex items-center space-x-3 bg-gray-50 rounded-md p-3 border border-gray-200">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
+                  <span className="text-sm">Various learning platforms – for courses</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Analytics */}
+            <div className="border-l-2 border-gray-300 pl-6">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <span className="w-7 h-7 bg-gray-900 text-white rounded-full flex items-center justify-center text-xs font-medium mr-3">8</span>
+                Analytics
+              </h2>
+              <p className="text-sm leading-relaxed mb-4">We may use third-party Service Providers to monitor and analyze the use of our Service.</p>
+              
+              <div>
+                <h3 className="font-medium text-gray-900 text-sm mb-2">Google Analytics</h3>
+                <p className="text-sm leading-relaxed mb-3">Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.</p>
+                <p className="text-sm leading-relaxed">For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page: <a href="http://www.google.com/intl/en/policies/privacy/" className="text-gray-900 hover:text-gray-700 transition-colors duration-200 font-medium underline decoration-gray-300 hover:decoration-gray-500">http://www.google.com/intl/en/policies/privacy/</a></p>
+              </div>
+            </div>
+
+            {/* Payments */}
+            <div className="border-l-2 border-gray-300 pl-6">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <span className="w-7 h-7 bg-gray-900 text-white rounded-full flex items-center justify-center text-xs font-medium mr-3">9</span>
+                Payments
+              </h2>
+              <p className="text-sm leading-relaxed mb-4">We may provide paid coaching services, courses, and workshops within the Service. In that case, we use third-party services for payment processing (e.g. payment processors).</p>
+              <p className="text-sm leading-relaxed mb-4">We will not store or collect your payment card details. That information is provided directly to our third-party payment processors whose use of your personal information is governed by their Privacy Policy. These payment processors adhere to the standards set by PCI-DSS as managed by the PCI Security Standards Council.</p>
+              
+              <h3 className="font-medium text-gray-900 text-sm mb-3">The payment processors we work with are:</h3>
+              <div className="space-y-3">
+            
+                <div>
+                  <h4 className="font-medium text-gray-900 text-sm">Stripe</h4>
+                  <p className="text-sm">Their Privacy Policy can be viewed at <a href="https://stripe.com/privacy" className="text-gray-900 hover:text-gray-700 transition-colors duration-200 font-medium underline decoration-gray-300 hover:decoration-gray-500">https://stripe.com/privacy</a></p>
+                </div>
+              </div>
+            </div>
+
+            {/* Your Data Protection Rights */}
+            <div className="border-l-2 border-gray-300 pl-6">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <span className="w-7 h-7 bg-gray-900 text-white rounded-full flex items-center justify-center text-xs font-medium mr-3">10</span>
+                Your Data Protection Rights Under GDPR
+              </h2>
+              <p className="text-sm leading-relaxed mb-4">If you are a resident of the European Economic Area (EEA), you have certain data protection rights. Andrew Dietz aims to take reasonable steps to allow you to correct, amend, delete, or limit the use of your Personal Data.</p>
+              <p className="text-sm leading-relaxed mb-4">If you wish to be informed what Personal Data we hold about you and if you want it to be removed from our systems, please contact us.</p>
+              <p className="text-sm leading-relaxed mb-4">In certain circumstances, you have the following data protection rights:</p>
+              
+              <div className="space-y-3 ml-4">
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm"><span className="font-medium">The right to access, update or delete</span> the information we have on you</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm"><span className="font-medium">The right of rectification</span> to have your information corrected if inaccurate or incomplete</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm"><span className="font-medium">The right to object</span> to our processing of your Personal Data</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm"><span className="font-medium">The right of restriction</span> to request that we restrict the processing of your personal information</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm"><span className="font-medium">The right to data portability</span> to be provided with a copy of your information in a structured format</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm"><span className="font-medium">The right to withdraw consent</span> at any time where we relied on your consent to process your personal information</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Security */}
+            <div className="border-l-2 border-gray-300 pl-6">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <span className="w-7 h-7 bg-gray-900 text-white rounded-full flex items-center justify-center text-xs font-medium mr-3">11</span>
+                Security of Data
+              </h2>
+              <p className="text-sm leading-relaxed">The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</p>
+            </div>
+
+            {/* Children's Privacy */}
+            <div className="border-l-2 border-gray-300 pl-6">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <span className="w-7 h-7 bg-gray-900 text-white rounded-full flex items-center justify-center text-xs font-medium mr-3">12</span>
+                Children's Privacy
+              </h2>
+              <p className="text-sm leading-relaxed mb-3">Our Service does not address anyone under the age of 18 ("Children").</p>
+              <p className="text-sm leading-relaxed">We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your child has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</p>
+            </div>
+
+            {/* Links to Other Sites */}
+            <div className="border-l-2 border-gray-300 pl-6">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <span className="w-7 h-7 bg-gray-900 text-white rounded-full flex items-center justify-center text-xs font-medium mr-3">13</span>
+                Links to Other Sites
+              </h2>
+              <p className="text-sm leading-relaxed mb-3">Our Service may contain links to other sites that are not operated by us. If you click on a third-party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
+              <p className="text-sm leading-relaxed">We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
+            </div>
+
+            {/* Data Transfer */}
+            <div className="border-l-2 border-gray-300 pl-6">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <span className="w-7 h-7 bg-gray-900 text-white rounded-full flex items-center justify-center text-xs font-medium mr-3">14</span>
+                Transfer of Data
+              </h2>
+              <p className="text-sm leading-relaxed mb-3">Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.</p>
+              <p className="text-sm leading-relaxed mb-3">If you are located outside United States and choose to provide information to us, please note that we transfer the data, including Personal Data, to United States and process it there.</p>
+              <p className="text-sm leading-relaxed mb-3">Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.</p>
+              <p className="text-sm leading-relaxed">Andrew Dietz will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.</p>
+            </div>
+
+            {/* Disclosure of Data */}
+            <div className="border-l-2 border-gray-300 pl-6">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <span className="w-7 h-7 bg-gray-900 text-white rounded-full flex items-center justify-center text-xs font-medium mr-3">15</span>
+                Disclosure of Data
+              </h2>
+              
+              <h3 className="font-medium text-gray-900 text-sm mb-3">Legal Requirements</h3>
+              <p className="text-sm leading-relaxed mb-4">Andrew Dietz may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
+              <div className="space-y-2 ml-4 mb-4">
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm">To comply with a legal obligation</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm">To protect and defend the rights or property of Andrew Dietz</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm">To prevent or investigate possible wrongdoing in connection with the Service</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm">To protect the personal safety of users of the Service or the public</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-sm">To protect against legal liability</p>
+                </div>
+              </div>
+
+              <h3 className="font-medium text-gray-900 text-sm mb-3">Law Enforcement</h3>
+              <p className="text-sm leading-relaxed">Under certain circumstances, Andrew Dietz may be required to disclose your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).</p>
+            </div>
+
+            {/* Do Not Track */}
+            <div className="border-l-2 border-gray-300 pl-6">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <span className="w-7 h-7 bg-gray-900 text-white rounded-full flex items-center justify-center text-xs font-medium mr-3">16</span>
+                "Do Not Track" Signals
+              </h2>
+              <p className="text-sm leading-relaxed mb-3">We do not support Do Not Track ("DNT"). Do Not Track is a preference you can set in your web browser to inform websites that you do not want to be tracked.</p>
+              <p className="text-sm leading-relaxed">You can enable or disable Do Not Track by visiting the Preferences or Settings page of your web browser.</p>
+            </div>
+
+            {/* Changes to Policy */}
+            <div className="border-l-2 border-gray-300 pl-6">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <span className="w-7 h-7 bg-gray-900 text-white rounded-full flex items-center justify-center text-xs font-medium mr-3">17</span>
+                Changes to This Privacy Policy
+              </h2>
+              <p className="text-sm leading-relaxed mb-3">We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+              <p className="text-sm leading-relaxed mb-3">We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the "effective date" at the top of this Privacy Policy.</p>
+              <p className="text-sm leading-relaxed">You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+            </div>
+
+            {/* Contact Section */}
+            <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <span className="w-7 h-7 bg-gray-900 text-white rounded-full flex items-center justify-center text-xs font-medium mr-3">✉</span>
+                Contact Us
+              </h2>
+              <p className="text-sm leading-relaxed mb-4">
+                If you have any questions about this Privacy Policy, please contact us:
+              </p>
+              <div className="space-y-2">
+                <div className="flex items-center space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
+                  <span className="text-sm">Email: </span>
+                  <a 
+                    href="mailto:hello@andrew-dietz.com" 
+                    className="text-gray-900 hover:text-gray-700 transition-colors duration-200 font-medium text-sm underline decoration-gray-300 hover:decoration-gray-500"
+                  >
+                    hello@andrew-dietz.com
+                  </a>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
+                  <span className="text-sm">Website: </span>
+                  <a 
+                    href="https://www.andrew-dietz.com" 
+                    className="text-gray-900 hover:text-gray-700 transition-colors duration-200 font-medium text-sm underline decoration-gray-300 hover:decoration-gray-500"
+                  >
+                    andrew-dietz.com
+                  </a>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
+                  <span className="text-sm">Contact Form: Available on our website for detailed inquiries</span>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      {/* Footer */}
+      <div className="text-center pb-8">
+        <p className="text-xs text-gray-500">
+          © 2025 Andrew Dietz. All rights reserved.
+        </p>
+      </div>
+    </main>
+  )
+}
