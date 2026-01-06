@@ -45,7 +45,7 @@ export default function PrivacyPolicy() {
             Privacy Policy
           </h1>
           <p className="text-sm text-gray-600">
-            Effective Date: August 8, 2025
+             Effective Date: January 5, 2026
           </p>
         </div>
       </div>
