@@ -43,7 +43,7 @@ const TermsAndConditions: React.FC = () => {
       />
       <h1 className="text-3xl font-bold mb-4">Terms &amp; Conditions</h1>
       <p className="mb-2">
-        <strong>Effective Date:</strong> 13/08/2025
+        <strong>Effective Date:</strong>  January 5, 2026
       </p>
       <p className="mb-4">
         Also view our <a href="/privacy-policy" className="text-blue-600 underline">Privacy Policy</a>.
