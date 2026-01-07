@@ -13,35 +13,35 @@ export default function Footer() {
               Andrew Dietz is an accomplished entrepreneur, author, financial advisor, researcher, and lecturer who is empowering individuals to discover their path to genuine happiness through proven methods and supportive community.
             </p>
             <div className="flex space-x-4">
-  <a 
-    href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61575726522069" 
-    aria-label="Facebook" 
-    className="text-blue-200 hover:text-white transition-colors"
-  >
-    <Facebook size={20} aria-hidden="true" />
-  </a>
-  <a 
-    href="https://x.com/coachdietzee" 
-    aria-label="Twitter" 
-    className="text-blue-200 hover:text-white transition-colors"
-  >
-    <Twitter size={20} aria-hidden="true" />
-  </a>
-  <a 
-    href="https://www.instagram.com/dietzandrew/" 
-    aria-label="Instagram" 
-    className="text-blue-200 hover:text-white transition-colors"
-  >
-    <Instagram size={20} aria-hidden="true" />
-  </a>
-  <a 
-    href="https://www.linkedin.com/in/andrewhdietz/" 
-    aria-label="LinkedIn" 
-    className="text-blue-200 hover:text-white transition-colors"
-  >
-    <Linkedin size={20} aria-hidden="true" />
-  </a>
-</div>
+              <a
+                href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61575726522069"
+                aria-label="Facebook"
+                className="text-blue-200 hover:text-white transition-colors"
+              >
+                <Facebook size={20} aria-hidden="true" />
+              </a>
+              <a
+                href="https://x.com/coachdietzee"
+                aria-label="Twitter"
+                className="text-blue-200 hover:text-white transition-colors"
+              >
+                <Twitter size={20} aria-hidden="true" />
+              </a>
+              <a
+                href="https://www.instagram.com/dietzandrew/"
+                aria-label="Instagram"
+                className="text-blue-200 hover:text-white transition-colors"
+              >
+                <Instagram size={20} aria-hidden="true" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/andrewhdietz/"
+                aria-label="LinkedIn"
+                className="text-blue-200 hover:text-white transition-colors"
+              >
+                <Linkedin size={20} aria-hidden="true" />
+              </a>
+            </div>
           </div>
 
           {/* Quick Links */}
@@ -90,7 +90,7 @@ export default function Footer() {
                   1-on-1 Mentorship
                 </Link>
               </li>
-            
+
             </ul>
           </div>
 
@@ -100,9 +100,9 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center">
                 <Mail size={16} className="mr-3 text-blue-200" />
-                <span className="text-blue-100"><a href="mailto:andrewdietzcoach@gmail.com">andrewdietzcoach@gmail.com</a></span>
+                <span className="text-blue-100"><a href="mailto:info@tpurpose.com">info@tpurpose.com</a></span>
               </div>
-              
+
               <div className="flex items-center">
                 <MapPin size={16} className="mr-3 text-blue-200" />
                 <span className="text-blue-100">Hunt Valley, MD</span>

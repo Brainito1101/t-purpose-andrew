@@ -246,158 +246,134 @@ const blogPosts = {
     comments: 31,
   },
 
-  "the-art-of-inner-wealth": {
-    title: "The Art of Inner Wealth: How Emotional Clarity Leads to Better Leadership",
-    seoTitle: "The Art of Inner Wealth | Build Strength From Within",
-    seoDescription: "Learn how clarity, energy, and emotional awareness shape long-term fulfillment, resilience, and personal growth.",
+  "the-art-of-inner-clarity": {
+    title: "The Art of Inner Clarity: The Decisive Edge of High-Stakes Leadership",
+    seoTitle: "The Art of Inner Clarity | Leadership & Emotional Awareness",
+    seoDescription: "Discover why inner clarity is the foundation of sustainable leadership. Learn practical ways to build emotional awareness and lead with presence.",
     excerpt:
-      "The Art of Inner Wealth: How Emotional Clarity Leads to Better Leadership.",
-    content:`
+      "Leadership is measured by results, but driven by the inner state. Discover why clarity is your most decisive leadership tool.",
+    content: `
+      <p>Leadership is often measured by results—growth, performance, scale, influence. But beneath every strong outcome is something less visible and far more decisive: <strong>the inner state of the leader.</strong></p>
+      
+      <p>In moments of pressure, uncertainty, or high stakes, leaders don’t rise to their strategies—they fall back on their internal clarity. And when that clarity is missing, even the most capable leaders begin to feel reactive, fragmented, and exhausted.</p>
 
-        <p>
-        There’s a type of wealth that doesn’t show up on your balance sheet—but transforms
-        everything around you. It’s called inner wealth.
-      </p>
-
-      <p>
-        You’ve already mastered external success. You’ve learned how to manage teams, build assets,
-        scale companies. But what about managing your inner state?
-      </p>
-
-      <p>
-        The truth is, emotional clarity isn’t a “nice to have.” It’s a power multiplier. Especially
-        for leaders.
-      </p>
+      <p>Inner clarity is not a personal luxury. It is a <strong>leadership necessity.</strong></p>
 
       <br />
-      <h2><strong>What is Inner Wealth?</strong></h2>
-
-      <p>
-        Inner wealth is the ability to lead with presence, think with clarity, and act from
-        alignment. It’s the calm confidence that doesn’t waver under pressure. It’s the resilience to
-        bounce back—not just externally but emotionally.
-      </p>
-
-      <p>It’s the invisible currency behind exceptional leadership.</p>
-
-      <br />
-      <h2><strong>Why Most Leaders Miss It</strong></h2>
-
-      <p>
-        We’re trained to optimize everything—KPIs, systems, capital. But rarely are we taught how to
-        optimize our inner operating system.
-      </p>
-
-      <p>So leaders:</p>
-
+      <h2><strong>Why Leadership Without Clarity Feels Heavy</strong></h2>
+      <p>Many leaders are highly skilled, experienced, and intelligent—yet privately overwhelmed. Not because they lack competence, but because they are carrying unresolved emotional noise while trying to lead decisively.</p>
+      
+      <p>This often shows up as:</p>
       <ul>
-        <li>Burn out while looking composed</li>
-        <li>Micro-manage out of hidden fear</li>
-        <li>Disconnect emotionally to maintain control</li>
-        <li>Numb themselves with distraction instead of facing internal noise</li>
+        <li>Constant mental overactivity</li>
+        <li>Difficulty switching off</li>
+        <li>Frustration that surfaces unexpectedly</li>
+        <li>A sense of pressure without a clear source</li>
+        <li>Feeling responsible for everything, all the time</li>
+      </ul>
+      
+      <p>Leadership becomes something to manage rather than embody. Over time, this creates leaders who function well—but feel disconnected from themselves and others.</p>
+
+      <br />
+      <h2><strong>Emotional Awareness Is the Missing Layer</strong></h2>
+      <p>Most leadership development focuses on <em>what</em> to do: Strategy, Execution, Communication, and Decision frameworks. Very little attention is given to <strong>how the leader is internally</strong> while doing it.</p>
+      
+      <p>Emotional awareness bridges that gap. It allows leaders to recognize:</p>
+      <ul>
+        <li>What they are feeling</li>
+        <li>Why they are feeling it</li>
+        <li>How it is influencing their behavior and decisions</li>
+      </ul>
+      <p>This awareness doesn’t slow leaders down—it removes internal friction.</p>
+
+      <br />
+      <h2><strong>The Difference Between Reaction and Response</strong></h2>
+      <p>One of the clearest indicators of inner clarity is how a leader handles pressure.</p>
+      
+      <p><strong>Without clarity:</strong></p>
+      <ul>
+        <li>Feedback feels like a threat</li>
+        <li>Delays feel personal</li>
+        <li>Conflict feels destabilizing</li>
+        <li>Decisions feel heavy and draining</li>
       </ul>
 
-      <p>They lead empires… but haven’t made peace with themselves.</p>
-
-      <br />
-      <h2><strong>Emotional Clarity = Strategic Advantage</strong></h2>
-
-      <p>
-        Let’s break the myth: Emotional awareness isn’t about being “soft.” It’s about being sharp
-        without being reactive.
-      </p>
-
-      <p>The most effective leaders today:</p>
-
+      <p><strong>With clarity:</strong></p>
       <ul>
-        <li>✅ Stay grounded when stakes are high</li>
-        <li>✅ Make cleaner decisions with less noise</li>
-        <li>✅ Inspire trust—not just compliance</li>
-        <li>✅ Listen between the lines</li>
-        <li>✅ Build cultures of authenticity, not just performance</li>
+        <li>Feedback becomes information</li>
+        <li>Delays become data</li>
+        <li>Conflict becomes a signal</li>
+        <li>Decisions feel grounded—even when difficult</li>
       </ul>
-
-      <p>And all of that stems from mastering inner clarity.</p>
-
-      <br />
-      <h2><strong>How to Build Inner Wealth (Without Burning Incense)</strong></h2>
-
-      <p>
-        No, this isn’t about meditating in a cave. Inner wealth can be practical. Here’s how to
-        cultivate it:
-      </p>
-
-      <h3>Emotional Labeling</h3>
-      <p>
-        Name what you feel. “I’m frustrated because I feel out of control.” Naming disarms shame and
-        reactivates logic.
-      </p>
-
-      <h3>Resilience Reps</h3>
-      <p>
-        Track moments when you wanted to react—but chose reflection. These are your emotional
-        muscles growing.
-      </p>
-
-      <h3>Stillness Practice</h3>
-      <p>
-        10 minutes a day. No inputs. Just sitting with yourself. Think of it like “debugging” your
-        brain.
-      </p>
-
-      <h3>Leadership Journaling</h3>
-      <p>
-        Not “Dear diary.” More like: “What triggered me today? What do I need to hear right now?”
-      </p>
-
-      <h3>Clarity Sessions</h3>
-      <p>
-        Set a recurring time each week for big-picture questions: What am I avoiding? What feels
-        misaligned? What’s calling me forward?
-      </p>
+      
+      <p>The situation may be the same. The internal experience is completely different.</p>
 
       <br />
-      <h2><strong>From Managing to Leading</strong></h2>
-
-      <p>When you lead from inner clarity:</p>
-
-      <ul>
-        <li>1. Your words carry more weight</li>
-        <li>2. Your presence calms rooms</li>
-        <li>3. Your decisions reflect long-term vision, not short-term noise</li>
-        <li>4. You stop reacting and start responding with intention</li>
-      </ul>
-
-      <p>
-        That’s the difference between being a manager of people and a leader of transformation.
-      </p>
+      <h2><strong>Why Emotional Suppression Backfires</strong></h2>
+      <p>Many leaders were taught—explicitly or implicitly—that emotions are distractions. So they suppress them. But suppressed emotion doesn’t disappear. <strong>It leaks.</strong></p>
+      
+      <p>It leaks into tone, into impatience, into control, into disengagement, and eventually, into health. Over time, leaders begin to feel disconnected from their own instincts, even though they appear confident on the surface.</p>
+      
+      <p>Inner clarity is not about indulging emotions. It’s about understanding them so they don’t run the show.</p>
 
       <br />
-      <h2><strong>Inner Wealth Scales Everything</strong></h2>
+      <h2><strong>Clarity Creates Consistency</strong></h2>
+      <p>One of the most powerful traits of effective leaders is consistency—not rigidity, but emotional steadiness. Teams trust leaders who don’t change their energy unpredictably or bring unresolved tension into the room.</p>
+      
+      <p>Inner clarity allows leaders to separate <em>what’s happening around me</em> from <em>what’s happening within me</em>. That separation is what creates composure.</p>
 
-      <p>Here’s the final truth: You are your biggest asset.</p>
+      <br />
+      <h2><strong>Practical Ways Leaders Build Inner Clarity</strong></h2>
+      <p>Inner clarity isn’t developed through theory. It’s built through simple, repeatable practices that increase self-awareness over time. Here are grounded methods leaders can integrate without changing their lifestyle:</p>
+      
+      <h3><strong>1. Emotional Labeling</strong></h3>
+      <p>Privately name what you’re feeling without judgment: <em>“I’m tense,” “I’m irritated,” “I’m uncertain.”</em> This immediately reduces emotional intensity and restores perspective.</p>
+      
+      <h3><strong>2. Pattern Recognition</strong></h3>
+      <p>Instead of asking, “Why did this happen?” ask: <strong>“When does this usually show up?”</strong> Patterns reveal more than isolated events.</p>
+      
+      <h3><strong>3. Micro-Pauses Before Action</strong></h3>
+      <p>Before responding to emails, messages, or conflict: <strong>Pause. Breathe. Then respond.</strong> This small gap is where clarity lives.</p>
+      
+      <h3><strong>4. Stillness as Maintenance</strong></h3>
+      <p>Ten minutes a day without stimulation allows unresolved thoughts to surface and settle. This isn’t meditation for performance—it’s <strong>mental hygiene.</strong></p>
+      
+      <h3><strong>5. Weekly Alignment Check</strong></h3>
+      <p>Ask yourself: What felt aligned this week? What felt forced? What did I avoid? Clarity increases when avoidance decreases.</p>
 
-      <p>
-        And when you invest in inner wealth, everything else—strategy, execution, culture—gets
-        sharper, faster, and more aligned.
-      </p>
+      <br />
+      <h2><strong>From Control to Presence</strong></h2>
+      <p>Many leaders rely on control because it feels safe. But control requires constant effort. <strong>Presence does not.</strong></p>
+      
+      <p>When leaders operate from inner clarity, they don’t over-explain, they don’t rush to fill silence, and they don’t carry unnecessary tension. Their presence becomes stabilizing. Rooms feel calmer, conversations feel clearer, and decisions feel cleaner.</p>
 
-      <p>So the next time you plan your next big hire or acquisition, ask yourself:</p>
+      <br />
+      <h2><strong>Why Teams Respond Differently to Clear Leaders</strong></h2>
+      <p>Teams are highly sensitive to a leader’s internal state—even when it’s unspoken. Leaders with clarity communicate emotionally: <em>“I’m grounded,” “I’m thinking clearly,” “I’m not reactive.”</em></p>
+      <p>That signal creates <strong>trust</strong>. And trust is what allows teams to take ownership, speak honestly, and perform sustainably.</p>
 
-      <p><em>When was the last time I invested in my emotional clarity?</em></p>
+      <br />
+      <h2><strong>Clarity Sustains Leaders Long-Term</strong></h2>
+      <p>Leadership is not a sprint. Without inner clarity, even success becomes exhausting. With clarity, decision fatigue reduces, recovery time shortens, and confidence becomes quieter but stronger. Leaders stop chasing momentum and start directing it.</p>
 
-      <p>
-        Because no matter how much you build, the quality of your leadership depends on what’s
-        happening inside you.
-      </p>
+      <br />
+      <h2><strong>The Deeper Shift</strong></h2>
+      <p>Inner clarity changes the relationship leaders have with themselves. They stop second-guessing constantly and carrying emotional residue from every interaction. They start trusting their internal signals and leading with steadiness.</p>
+      
+      <p>This is not about becoming someone new; it’s about returning to a state where leadership feels clean, intentional, and sustainable.</p>
+
+      <br />
+      <h2><strong>Final Thought</strong></h2>
+      <p>The future of leadership does not belong to the loudest, fastest, or most aggressive. It belongs to those who can think clearly under pressure, stay present in complexity, and lead without losing themselves in the process.</p>
+      <p><strong>Inner clarity is the foundation of leadership that lasts.</strong></p>
     `,
-    image: "https://storage.googleapis.com/msgsndr/xQlIEgJuDpymPFH4Fs60/media/689f1c2b5bdfcfa148e32887.webp?height=400&width=800&text=Mountain+Climbing+Resilience",
+    image: "https://storage.googleapis.com/msgsndr/xQlIEgJuDpymPFH4Fs60/media/689f1c2b5bdfcfa148e32887.webp?height=400&width=800&text=Leadership+Clarity",
     author: "Andrew Dietz",
-    date: "July 10, 2025",
-    readTime: "12 min read",
-    tags: ["Resilience", "Personal Growth", "Mental Health", "Coping Strategies"],
-    likes: 156,
-    comments: 31,
+    date: "July 15, 2025",
+    readTime: "10 min read",
+    tags: ["Leadership", "Clarity", "Emotional Intelligence", "Performance"],
+    likes: 184,
+    comments: 42,
   },
 }
 
@@ -416,7 +392,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   }
 
   const canonicalUrl = `https://www.andrew-dietz.com/blog/${slug}`
-  
+
   // Use custom SEO title and description if available, otherwise fall back to defaults
   const seoTitle = (post as any).seoTitle || post.title
   const seoDescription = (post as any).seoDescription || post.excerpt || post.title
@@ -516,37 +492,37 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       />
       {/* Hero Section */}
       <section
-  className="relative py-24 text-white bg-cover bg-center bg-no-repeat"
-  style={{ backgroundImage: `url(${post.image})` }}
->
-  <div className="absolute inset-0 bg-black/50" />
-  <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <Link
-      href="/blog"
-      className="inline-flex items-center text-blue-200 hover:text-white mb-6 transition-colors"
-    >
-      <ArrowLeft size={20} className="mr-2" />
-      Back to Blog
-    </Link>
+        className="relative py-24 text-white bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${post.image})` }}
+      >
+        <div className="absolute inset-0 bg-black/50" />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Link
+            href="/blog"
+            className="inline-flex items-center text-blue-200 hover:text-white mb-6 transition-colors"
+          >
+            <ArrowLeft size={20} className="mr-2" />
+            Back to Blog
+          </Link>
 
-    <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">{post.title}</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">{post.title}</h1>
 
-    <div className="flex flex-wrap items-center gap-6 text-blue-200">
-      <div className="flex items-center">
-        <User size={16} className="mr-2" />
-        {post.author}
-      </div>
-      <div className="flex items-center">
-        <Calendar size={16} className="mr-2" />
-        {post.date}
-      </div>
-      <div>{post.readTime}</div>
-    </div>
-  </div>
-</section>
+          <div className="flex flex-wrap items-center gap-6 text-blue-200">
+            <div className="flex items-center">
+              <User size={16} className="mr-2" />
+              {post.author}
+            </div>
+            <div className="flex items-center">
+              <Calendar size={16} className="mr-2" />
+              {post.date}
+            </div>
+            <div>{post.readTime}</div>
+          </div>
+        </div>
+      </section>
 
 
-      
+
 
       {/* Article Content */}
       <article className="py-16 bg-white">
@@ -579,7 +555,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 </div>
               </div>
 
-              
+
             </div>
 
             {/* Sidebar */}
@@ -592,7 +568,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                     Awaken your Purpose Within is a transformative experience for high-achieving professionals who want to redefine success, wealth and relationships.
                   </p>
                   <Link href={"/workshop"}>
-                  <Button className="w-full bg-white text-[#191970] hover:bg-gray-100">Book Your Seat</Button>
+                    <Button className="w-full bg-white text-[#191970] hover:bg-gray-100">Book Your Seat</Button>
                   </Link>
                 </div>
 
@@ -616,7 +592,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   </div>
                 </div>
 
-                
+
               </div>
             </div>
           </div>
@@ -631,13 +607,13 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             Don't just read about transformation—experience it. Join our community of growth-minded individuals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-           <Link href={"/workshop"}>
-            <Button
-              variant="outline"
-              className="border-white text-white hover:bg-white hover:text-[#191970] text-lg px-8 py-3 bg-transparent"
-            >
-              Join Next Webinar
-            </Button>
+            <Link href={"/workshop"}>
+              <Button
+                variant="outline"
+                className="border-white text-white hover:bg-white hover:text-[#191970] text-lg px-8 py-3 bg-transparent"
+              >
+                Join Next Webinar
+              </Button>
             </Link>
           </div>
         </div>

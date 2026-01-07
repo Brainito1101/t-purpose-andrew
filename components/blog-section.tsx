@@ -23,11 +23,11 @@ const blogPosts = [
     slug: "the-hidden-cost-of-success",
   },
   {
-    title: "The Art of Inner Wealth",
-    excerpt: "The Art of Inner Wealth: How Emotional Clarity Leads to Better Leadership.",
+    title: "The Art of Inner Clarity",
+    excerpt: "The Art of Inner Clarity: How Emotional Awareness Shapes Exceptional Leadership.",
     image: "https://storage.googleapis.com/msgsndr/xQlIEgJuDpymPFH4Fs60/media/689f1c2b5bdfcfa148e32887.webp?height=200&width=300",
     date: "July 10, 2025",
-    slug: "the-art-of-inner-wealth",
+    slug: "the-art-of-inner-clarity",
   },
 ]
 
@@ -86,12 +86,12 @@ export default function BlogSection({ headingLevel = "h1" }: BlogSectionProps) {
 
         <div className="text-center">
           <Link href={`/blog`}>
-          <Button
-            variant="outline"
-            className="border-[#191970] text-[#191970] hover:bg-[#191970] hover:text-white bg-transparent"
-          >
-            View All Blog Posts
-          </Button>
+            <Button
+              variant="outline"
+              className="border-[#191970] text-[#191970] hover:bg-[#191970] hover:text-white bg-transparent"
+            >
+              View All Blog Posts
+            </Button>
           </Link>
         </div>
       </div>

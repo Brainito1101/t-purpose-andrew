@@ -80,7 +80,7 @@ export default function HeroSlider() {
       cta: "Register Now",
       ctaLink: "/workshop",
       bgImage:
-        "https://storage.googleapis.com/msgsndr/xQlIEgJuDpymPFH4Fs60/media/6937dbb450387f6c4d793009.webp",
+        "https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/695e8bc9153bbc1017f75184.png",
     },
     {
       title: slide2Variants[slide2Variant].title,
@@ -192,8 +192,8 @@ export default function HeroSlider() {
                   <p className="text-[10px] tracking-[0.25em] uppercase font-semibold">
                     PRE-ORDER SALES
                   </p>
-                  <h2 className="text-2xl sm:text-3xl font-serif leading-tight font-bold">
-                    GRATIMYSTIC
+                  <h2 className="text-xl sm:text-2xl font-serif leading-tight font-bold">
+                    The Achievement Trap
                   </h2>
                   <h3 className="text-base sm:text-lg text-[#d4af37] font-serif leading-tight font-bold">
                     EXTRA ORDINARY<br />HAPPINESS
@@ -211,8 +211,8 @@ export default function HeroSlider() {
                   <p className="text-sm lg:text-base tracking-[0.3em] uppercase font-bold">
                     PRE-ORDER SALES
                   </p>
-                  <h2 className="text-6xl lg:text-7xl xl:text-8xl font-serif leading-tight font-extrabold">
-                    GRATIMYSTIC
+                  <h2 className="text-4xl lg:text-5xl xl:text-6xl font-serif leading-tight font-extrabold">
+                    The Achievement Trap
                   </h2>
                   <h3 className="text-3xl lg:text-4xl xl:text-5xl text-[#d4af37] font-serif leading-tight font-bold">
                     EXTRA ORDINARY<br />HAPPINESS
@@ -238,9 +238,8 @@ export default function HeroSlider() {
         {/* Slide Content (for non-book slides) */}
         {!slides[currentSlide].isBookSlide && (
           <div
-            className={`absolute left-1/2 transform -translate-x-1/2 w-full max-w-5xl px-4 sm:px-6 md:px-8 text-center text-white ${
-              currentSlide === 1 ? "bottom-8 sm:bottom-10 md:bottom-12 lg:bottom-14" : "bottom-6 sm:bottom-8 md:bottom-10"
-            }`}
+            className={`absolute left-1/2 transform -translate-x-1/2 w-full max-w-5xl px-4 sm:px-6 md:px-8 text-center text-white ${currentSlide === 1 ? "bottom-8 sm:bottom-10 md:bottom-12 lg:bottom-14" : "bottom-6 sm:bottom-8 md:bottom-10"
+              }`}
           >
             <h1>{slides[currentSlide].title}</h1>
 
@@ -321,9 +320,8 @@ export default function HeroSlider() {
               key={index}
               onClick={() => setCurrentSlide(index)}
               aria-label={`Go to slide ${index + 1}`}
-              className={`w-3 h-3 rounded-full transition-colors ${
-                index === currentSlide ? "bg-white" : "bg-white/50"
-              }`}
+              className={`w-3 h-3 rounded-full transition-colors ${index === currentSlide ? "bg-white" : "bg-white/50"
+                }`}
             />
           ))}
         </div>

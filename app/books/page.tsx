@@ -27,7 +27,7 @@ export default function BookPage() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Book",
-    "name": "Gratimystic: Extra Ordinary Happiness",
+    "name": "The Achievement Trap",
     "author": {
       "@type": "Person",
       "name": "Andrew Dietz"
@@ -48,7 +48,7 @@ export default function BookPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <section className="text-center py-16 px-6">
-        <h1 className="text-4xl font-bold mb-4 text-[#191970]">Gratimystic</h1>
+        <h1 className="text-4xl font-bold mb-4 text-[#191970]">The Achievement Trap</h1>
         <p className="text-gray-600 mb-10 text-lg">
           Tap into the power of extraordinary happiness!
         </p>
@@ -63,7 +63,7 @@ export default function BookPage() {
               height={400}
               className="rounded-lg mx-auto mb-4"
             />
-            <h3 className="text-xl font-semibold mb-2 text-[#191970]">Gratimystic</h3>
+            <h3 className="text-xl font-semibold mb-2 text-[#191970]">The Achievement Trap</h3>
             <p className="text-gray-500 mb-4">Coming soon</p>
             <Link href="https://link.fastpaydirect.com/payment-link/68c03563219709986ee1b7e1" target="_blank" rel="noopener noreferrer">
               <Button className="bg-[#191970] hover:bg-[#15155c] text-white w-full">
@@ -76,7 +76,7 @@ export default function BookPage() {
           <div>
             <h2 className="text-2xl font-bold text-[#191970] mb-4">About the Book</h2>
             <p className="text-gray-600 leading-relaxed">
-              Gratimystic: Extra Ordinary Happiness by Andrew Dietz is a transformative guide designed to help readers awaken their true purpose within. Blending wisdom, mindfulness, and practical insights, the book invites you to shift perspectives, embrace gratitude, and discover deeper fulfillment in everyday life. With its focus on self-growth and authentic connection, Gratimystic is more than a book—it’s a journey toward extraordinary happiness and inner peace.
+              The Achievement Trap: Extra Ordinary Happiness by Andrew Dietz is a transformative guide designed to help readers awaken their true purpose within. Blending wisdom, mindfulness, and practical insights, the book invites you to shift perspectives, embrace gratitude, and discover deeper fulfillment in everyday life. With its focus on self-growth and authentic connection, Gratimystic is more than a book—it’s a journey toward extraordinary happiness and inner peace.
             </p>
           </div>
         </div>
