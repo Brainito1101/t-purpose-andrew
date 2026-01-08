@@ -163,7 +163,9 @@ export default function HeroSlider() {
       <img
   src={slides[currentSlide].bgImage}
   alt=""
-  className="w-full h-full object-cover object-center"
+  className={`w-full h-full object-cover ${
+    currentSlide === 0 ? "object-top" : "object-center"
+  }`}
 />
 
 
