@@ -163,7 +163,7 @@ export default function HeroSlider() {
             <img
               src={slides[currentSlide].bgImage}
               alt=""
-              className="w-full h-full object-cover object-top"
+              className="w-full h-full object-cover object-center"
             />
           )}
         </div>
