@@ -41,7 +41,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-28">
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <Image src="/https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/695f932380b2a067c604c7f0.pngs" alt="Andrew Dietz" width={150} height={150} className="h-24 w-auto" />
+              <Image src="https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/695f932380b2a067c604c7f0.png" alt="Andrew Dietz" width={150} height={150} className="h-24 w-auto" />
             </Link>
           </div>
 
