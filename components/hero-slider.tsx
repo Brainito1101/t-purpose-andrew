@@ -164,7 +164,7 @@ export default function HeroSlider() {
   src={slides[currentSlide].bgImage}
   alt=""
   className={`w-full h-full object-cover ${
-  currentSlide === 0 ? "object-[center_40%]" : "object-center"
+  currentSlide === 0 ? "object-[center_35%]" : "object-center"
   }`}
 />
 
