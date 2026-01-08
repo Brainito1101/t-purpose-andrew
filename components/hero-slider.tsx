@@ -160,15 +160,14 @@ export default function HeroSlider() {
           {slides[currentSlide].isBookSlide ? (
             <div className="w-full h-full bg-gradient-to-br from-[#1a2332] via-[#243447] to-[#1a2332]"></div>
           ) : (
-            <img
-                src={slides[currentSlide].bgImage}
-              alt=""
-             className={`w-full h-full object-cover transition-all duration-700 ${
-             currentSlide === 0
-                ? "object-[center_65%]"
-               : "object-center"
-               }`}
-           />
+           <img
+  src={slides[currentSlide].bgImage}
+  alt=""
+  className={`w-full h-full object-cover ${
+    currentSlide === 0 ? "object-[center_65%]" : "object-center"
+  }`}
+/>
+
 
           )}
         </div>
