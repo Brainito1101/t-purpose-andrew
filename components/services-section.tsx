@@ -25,9 +25,9 @@ const services = [
     description:
       "Curated spaces for reflection, recalibration, and connection.",
     images: [
-      "https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/695f6fa8d461d40e431c249b.png",
-      "https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/695f6fa80597df4696cef7b8.png",
-      "https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/695f6fa880b2a0234bfd79a2.png",
+      "https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/695fd7f40597df118ee00001.png",
+      "https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/695fd7f49c38cb4cd786587f.png",
+      "https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/695fd7f4fface199a026098f.png",
     ],
     formId: "rAt5dTX0IBICsbzgQCTq", // workshop form
   },
@@ -35,9 +35,9 @@ const services = [
     title: "1-on-1 Mentorship",
     description: "Strategic, discreet, and deeply personal guidance.",
     images: [
-      "https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/695f6f9c80b2a08a3ffd7850.jpg",
-      "https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/695f6f9c0597dfb2becef5f7.png",
-      "https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/695f6f9cfface1741f14db80.png",
+      "https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/695fd7f4dc5e04f1ecc6c2af.png",
+      "https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/695fd7f459bb4aa9f5078658.png",
+      "https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/695fd7f46eabe660862ac8e2.jpg",
     ],
     formId: "oFkkgW6Y1q1cLN3ksbOt", // mentorship form
   },
