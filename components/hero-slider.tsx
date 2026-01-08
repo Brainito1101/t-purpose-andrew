@@ -154,7 +154,7 @@ export default function HeroSlider() {
 
   return (
     <>
-      <section className="relative h-[280px] sm:h-[350px] md:h-[420px] lg:h-[490px] overflow-hidden">
+      <section className="relative h-[280px] sm:h-[350px] md:h-[420px] lg:h-[490px] overflow-hidden pt-20">
         {/* Background Image */}
         <div className="absolute inset-0 transition-all duration-1000">
           {slides[currentSlide].isBookSlide ? (
@@ -163,10 +163,9 @@ export default function HeroSlider() {
       <img
   src={slides[currentSlide].bgImage}
   alt=""
-  className={`w-full h-full object-cover object-center relative ${
-    currentSlide === 0 ? "top-10" : "top-0"
-  }`}
+  className="w-full h-full object-cover object-center"
 />
+
 
 
 
