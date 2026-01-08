@@ -111,7 +111,7 @@ export default function HeroSlider() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length)
-    }, 10000)
+    }, 5000)
     return () => clearInterval(timer)
   }, [])
 
@@ -160,11 +160,14 @@ export default function HeroSlider() {
           {slides[currentSlide].isBookSlide ? (
             <div className="w-full h-full bg-gradient-to-br from-[#1a2332] via-[#243447] to-[#1a2332]"></div>
           ) : (
-        <img
+      <img
   src={slides[currentSlide].bgImage}
   alt=""
-  className="w-full h-full object-cover object-end"
+  className={`w-full h-full object-cover object-center relative ${
+    currentSlide === 0 ? "top-10" : "top-0"
+  }`}
 />
+
 
 
           )}
