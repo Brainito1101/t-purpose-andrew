@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://andrew-dietz.com/sitemap.xml
+Sitemap: https://tpurpose.com/sitemap.xml
