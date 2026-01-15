@@ -4,47 +4,37 @@ import Link from "next/link"
 
 const retreats = [
   {
-    month: "Dec",
-    day: "07",
-    location: "Chula Vista, California",
-    type: "Week Long Advanced Retreat",
-    dateRange: "December 07 - 13, 2025",
-  },
-  {
     month: "Jan",
-    day: "04",
-    location: "Marco Island, Florida",
-    type: "Week Long Advanced Retreat",
-    dateRange: "January 04 - 10, 2026",
+    day: "22",
+    location: "Dubai, UAE",
+    type: "Advanced Retreat",
+    dateRange: "January 22 - 25, 2025",
+    ticketsAvailable: false,
   },
   {
     month: "Feb",
-    day: "02",
-    location: "Riviera Maya, Mexico",
-    type: "Week Long Advanced Retreat",
-    dateRange: "February 02 - 08, 2026",
+    day: "",
+    location: "Colorado USA",
+    type: "Advanced Retreat",
+    dateRange: "",
+    ticketsAvailable: true,
   },
   {
     month: "Mar",
-    day: "07",
-    location: "Chula Vista, California",
+    day: "20",
+    location: "Quepos, Costa Rica",
     type: "Advanced Follow Up Retreat",
-    dateRange: "March 07 - 10, 2026",
+    dateRange: "March 20 - 23, 2025",
+    ticketsAvailable: true,
   },
   {
     month: "Apr",
-    day: "04",
-    location: "Aurora, Colorado",
-    type: "Week Long Advanced Retreat",
-    dateRange: "April 04 - 10, 2026",
-  },
-  {
-    month: "May",
-    day: "10",
-    location: "Grapevine, Texas",
-    type: "Week Long Advanced Retreat",
-    dateRange: "May 10 - 16, 2026",
-  },
+    day: "",
+    location: "Florida USA",
+    type: "Advanced Retreat",
+    dateRange: "",
+    ticketsAvailable: true,
+  }
 ]
 
 export default function RetreatsSection() {
@@ -81,7 +71,7 @@ export default function RetreatsSection() {
 
                   {/* Tickets Available Badge */}
                   <div className="bg-[#191970] text-white text-xs sm:text-sm font-semibold px-2 sm:px-3 py-1 sm:py-1.5 rounded">
-                    Tickets Available
+                    {retreat.ticketsAvailable ? "Tickets Available" : "Sold Out"}
                   </div>
                 </div>
 
