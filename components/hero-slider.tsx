@@ -59,29 +59,6 @@ export default function HeroSlider() {
 
   const slides = [
     {
-      title: (
-        <div className="text-white text-center">
-          <div className="text-sm sm:text-base md:text-xl lg:text-2xl tracking-[0.2em] sm:tracking-[0.3em] md:tracking-[0.4em] uppercase font-medium mb-1 sm:mb-2">
-            ANDREW DIETZ
-          </div>
-          <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold uppercase leading-tight">
-            AWAKEN
-          </div>
-          <div className="text-sm sm:text-base md:text-xl lg:text-2xl tracking-widest uppercase mt-1 sm:mt-2 mb-1 sm:mb-2">
-            YOUR PURPOSE
-          </div>
-          <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold uppercase leading-tight">
-            WITHIN
-          </div>
-          <br />
-        </div>
-      ),
-      subtitle: "",
-      cta: "Register Now",
-      ctaLink: "/workshop",
-     
-    },
-    {
       title: slide2Variants[slide2Variant].title,
       subtitle: (
         <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl mt-3 sm:mt-4 md:mt-5 mb-4 sm:mb-5 md:mb-6 opacity-90 max-w-3xl mx-auto px-4">
