@@ -79,8 +79,7 @@ export default function HeroSlider() {
       subtitle: "",
       cta: "Register Now",
       ctaLink: "/workshop",
-      bgImage:
-        "https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/695f9f0f7cc1b9c8df62522a.png",
+     
     },
     {
       title: slide2Variants[slide2Variant].title,
