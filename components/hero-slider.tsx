@@ -163,7 +163,7 @@ export default function HeroSlider() {
                 {/* Book Image - Move UP & Right */}
                 <div className="absolute right-0 top-1/2 transform -translate-y-[40%] translate-x-[10px]">
                   <img
-                    src="https://storage.googleapis.com/msgsndr/xQlIEgJuDpymPFH4Fs60/media/6938179335652b5962fde77b.png"
+                    src="https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/6970d5dd3c2b375e49f95003.png"
                     alt="Gratimystic Book"
                     className="w-40 sm:w-48 h-auto drop-shadow-2xl opacity-90"
                   />
