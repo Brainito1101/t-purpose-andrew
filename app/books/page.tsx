@@ -57,7 +57,7 @@ export default function BookPage() {
           {/* Left: Book Card */}
           <div className="border rounded-xl p-6 shadow hover:shadow-lg transition">
             <Image
-              src="https://storage.googleapis.com/msgsndr/xQlIEgJuDpymPFH4Fs60/media/689f1c2b1ef51b61cb6c4922.webp"
+              src="https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/6970d5dd3c2b375e49f95003.png"
               alt="Book 1"
               width={300}
               height={400}
