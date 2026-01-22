@@ -161,7 +161,7 @@ export default function HeroSlider() {
                   <img
                     src="https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/6970e13b1d13762e8f3c42d2.png"
                     alt="Gratimystic Book"
-                    className="w-50 sm:w-52 h-auto drop-shadow-2xl opacity-90"
+                    className="w-40 sm:w-48 h-auto drop-shadow-2xl opacity-90"
                   />
                 </div>
 
