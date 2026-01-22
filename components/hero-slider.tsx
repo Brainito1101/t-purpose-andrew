@@ -161,7 +161,7 @@ export default function HeroSlider() {
                   <img
                     src="https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/697207cfeb392b8f5f82522d.png"
                     alt="Gratimystic Book"
-                    className="w-56 sm:w-64 h-auto drop-shadow-2xl opacity-90"
+                    className="w-46 sm:w-52 h-auto drop-shadow-2xl opacity-90"
                   />
 
                 </div>
@@ -206,7 +206,7 @@ export default function HeroSlider() {
                   <img
                     src="https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/697207cfeb392b8f5f82522d.png"
                     alt="Gratimystic Book"
-                    className="w-56 sm:w-64 h-auto drop-shadow-2xl opacity-90"
+                    className="w-64 sm:w-68 h-auto drop-shadow-2xl opacity-90"
                   />
                 </div>
               </div>
