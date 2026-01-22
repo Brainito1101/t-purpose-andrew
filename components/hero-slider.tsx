@@ -203,7 +203,7 @@ export default function HeroSlider() {
                 {/* Book Image - Adjusted Right & Down */}
                 <div className="flex-shrink-0 self-end pb-8 lg:pb-10 transform translate-x-[200px] translate-y-12">
                   <img
-                    src="https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/6970e13b1d13762e8f3c42d2.png"
+                    src="https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/697207cfeb392b8f5f82522d.png"
                     alt="Gratimystic Book"
                     className="w-52 lg:w-60 xl:w-72 h-auto drop-shadow-2xl"
                   />
