@@ -143,10 +143,6 @@ export default function HeroSlider() {
   currentSlide === 0 ? "object-[center_33%]" : "object-center"
   }`}
 />
-
-
-
-
           )}
         </div>
         {!slides[currentSlide].isBookSlide && (
@@ -163,7 +159,7 @@ export default function HeroSlider() {
                 {/* Book Image - Move UP & Right */}
                 <div className="absolute right-0 top-1/2 transform -translate-y-[40%] translate-x-[10px]">
                   <img
-                    src="https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/6970d5dd3c2b375e49f95003.png"
+                    src="https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/6970e13b1d13762e8f3c42d2.png"
                     alt="Gratimystic Book"
                     className="w-40 sm:w-48 h-auto drop-shadow-2xl opacity-90"
                   />
@@ -207,7 +203,7 @@ export default function HeroSlider() {
                 {/* Book Image - Adjusted Right & Down */}
                 <div className="flex-shrink-0 self-end pb-8 lg:pb-10 transform translate-x-[200px] translate-y-12">
                   <img
-                    src="https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/6970d5dd3c2b375e49f95003.png"
+                    src="https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/6970e13b1d13762e8f3c42d2.png"
                     alt="Gratimystic Book"
                     className="w-52 lg:w-60 xl:w-72 h-auto drop-shadow-2xl"
                   />
