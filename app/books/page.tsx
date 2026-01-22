@@ -59,8 +59,8 @@ export default function BookPage() {
             <Image
               src="https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/697207cfeb392b8f5f82522d.png"
               alt="Book 1"
-              width={370}
-              height={470}
+              width={350}
+              height={450}
               className="rounded-lg mx-auto mb-4"
             />
             <h3 className="text-xl font-semibold mb-2 text-[#191970]">The Achievement Trap</h3>
