@@ -237,7 +237,7 @@ export default function PrivacyPolicy() {
                 <span className="w-7 h-7 bg-gray-900 text-white rounded-full flex items-center justify-center text-xs font-medium mr-3">5</span>
                 Legal Basis for Processing Personal Data Under GDPR
               </h2>
-              <p className="text-sm leading-relaxed mb-4">If you are from the European Economic Area (EEA), Andrew Dietz's legal basis for collecting and using the personal information described in this Privacy Policy depends on the Personal Data we collect and the specific context in which we collect it.</p>
+              <p className="text-sm leading-relaxed mb-4">If you are from the European Economic Area (EEA), True Purpose legal basis for collecting and using the personal information described in this Privacy Policy depends on the Personal Data we collect and the specific context in which we collect it.</p>
               <p className="text-sm leading-relaxed mb-4">True Purpose may process your Personal Data because:</p>
               <div className="space-y-2 ml-4">
                 <div className="flex items-start space-x-3">
@@ -421,7 +421,7 @@ export default function PrivacyPolicy() {
               <p className="text-sm leading-relaxed mb-3">Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.</p>
               <p className="text-sm leading-relaxed mb-3">If you are located outside United States and choose to provide information to us, please note that we transfer the data, including Personal Data, to United States and process it there.</p>
               <p className="text-sm leading-relaxed mb-3">Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.</p>
-              <p className="text-sm leading-relaxed">Andrew Dietz will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.</p>
+              <p className="text-sm leading-relaxed">True Purpose will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.</p>
             </div>
 
             {/* Disclosure of Data */}
@@ -508,7 +508,7 @@ export default function PrivacyPolicy() {
                     href="https://www.tpurpose.com" 
                     className="text-gray-900 hover:text-gray-700 transition-colors duration-200 font-medium text-sm underline decoration-gray-300 hover:decoration-gray-500"
                   >
-                    andrew-dietz.com
+                    tpurpose.com
                   </a>
                 </div>
                 <div className="flex items-center space-x-3">
