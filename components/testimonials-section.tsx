@@ -24,7 +24,7 @@ const testimonials = [
     role: "Teacher",
     image: "/placeholder.svg?height=80&width=80",
     rating: 5,
-    text: "Andrew is amazing. Deep conversations with a hint of humor doesn't hurt a man.",
+    text: "True Purpose is amazing. Deep conversations with a hint of humor doesn't hurt a man.",
   },
   /*{
     name: "David Thompson",
