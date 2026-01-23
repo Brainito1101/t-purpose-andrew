@@ -10,8 +10,8 @@ import type { Metadata } from "next"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "Andrew Dietz | Live With Purpose, Energy & Real Happiness",
-  description: "Discover Andrew Dietz’s proven methods for lasting happiness, fulfillment, and purpose. Workshops, mentorship, and guidance to help you reconnect with yourself.",
+  title: "True Purpose | Live With Purpose, Energy & Real Happiness",
+  description: "Discover True Purpose’s proven methods for lasting happiness, fulfillment, and purpose. Workshops, mentorship, and guidance to help you reconnect with yourself.",
   alternates: {
     canonical: "https://www.andrew-dietz.com/",
   },
