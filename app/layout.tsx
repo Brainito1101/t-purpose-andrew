@@ -40,7 +40,7 @@ const mont = Montserrat({
 
 
 export const metadata: Metadata = {
-  title: "Andrew Dietz",
+  title: "True Purpose",
   description: "Join our webinars and seminars to discover the path to lasting happiness and personal growth.",
   generator: 'Andrew Dietz',
   icons: {
