@@ -76,7 +76,7 @@ export default function BookPage() {
           <div>
             <h2 className="text-2xl font-bold text-[#191970] mb-4">About the Book</h2>
             <p className="text-gray-600 leading-relaxed">
-              The Achievement Trap: Extra Ordinary Happiness by Andrew Dietz is a transformative guide designed to help readers awaken their true purpose within. Blending wisdom, mindfulness, and practical insights, the book invites you to shift perspectives, embrace gratitude, and discover deeper fulfillment in everyday life. With its focus on self-growth and authentic connection, Gratimystic is more than a book—it’s a journey toward extraordinary happiness and inner peace.
+              The Achievement Trap: Extra Ordinary Happiness by True Purpose is a transformative guide designed to help readers awaken their true purpose within. Blending wisdom, mindfulness, and practical insights, the book invites you to shift perspectives, embrace gratitude, and discover deeper fulfillment in everyday life. With its focus on self-growth and authentic connection, Gratimystic is more than a book—it’s a journey toward extraordinary happiness and inner peace.
             </p>
           </div>
         </div>
