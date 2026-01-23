@@ -10,7 +10,7 @@ const testimonials = [
     role: "Marketing Executive",
     image: "/placeholder.svg?height=80&width=80",
     rating: 5,
-    text: "Mid-life crisis? Go to Andrew. He just makes you feel positive.",
+    text: "Mid-life crisis? Go to True Purpose. He just makes you feel positive.",
   },
   {
     name: "James",
