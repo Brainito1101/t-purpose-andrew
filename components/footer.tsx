@@ -8,9 +8,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">Andrew Dietz</h3>
+            <h3 className="text-2xl font-bold mb-4">True Purpose</h3>
             <p className="text-blue-100 mb-4">
-              Andrew Dietz is an accomplished entrepreneur, author, financial advisor, researcher, and lecturer who is empowering individuals to discover their path to genuine happiness through proven methods and supportive community.
+              True Purpose is an accomplished entrepreneur, author, financial advisor, researcher, and lecturer who is empowering individuals to discover their path to genuine happiness through proven methods and supportive community.
             </p>
             <div className="flex space-x-4">
               <a
@@ -113,7 +113,7 @@ export default function Footer() {
 
         <div className="border-t border-blue-400 mt-8 pt-8 text-center">
           <p className="text-blue-100">
-            © {new Date().getFullYear()} Andrew Dietz. All rights reserved. |
+            © {new Date().getFullYear()} True Purpose. All rights reserved. |
             <Link href="/privacy-policy" className="hover:text-white ml-2">
               Privacy Policy
             </Link>{" "}
