@@ -3,8 +3,8 @@ import type { Metadata } from "next"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | How Andrew Dietz Protects Your Data",
-  description: "Learn how your information is collected, stored, and protected across Andrew Dietz’s website and services.",
+  title: "Privacy Policy | How True Purpose Protects Your Data",
+  description: "Learn how your information is collected, stored, and protected across True Purpose’s website and services.",
   alternates: {
     canonical: "https://www.andrew-dietz.com/privacy-policy",
   },
@@ -26,7 +26,7 @@ export default function PrivacyPolicy() {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Privacy Policy",
-    "description": "Privacy Policy for Andrew Dietz website and services",
+    "description": "Privacy Policy for True Purpose website and services",
     "datePublished": "2025-08-08",
     "inLanguage": "en-US"
   }
@@ -58,20 +58,20 @@ export default function PrivacyPolicy() {
             {/* Introduction */}
             <div className="prose prose-sm max-w-none">
               <p className="text-sm leading-relaxed mb-6">
-                Andrew Dietz ("us", "we", or "our") operates the website{" "}
+                True Purpose ("us", "we", or "our") operates the website{" "}
                 <a 
                   href="https://andrew-dietz.com" 
                   className="text-gray-900 hover:text-gray-700 transition-colors duration-200 font-medium underline decoration-gray-300 hover:decoration-gray-500" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-                  andrew-dietz.com
+                  tpurpose.com
                 </a>{" "}
                 and related services including happiness coaching sessions, online courses, workshops, and events (the "Service").
               </p>
 
               <p className="text-sm leading-relaxed mb-6">
-                Andrew Dietz also utilizes various third-party platforms and service providers including but not limited to scheduling platforms, payment processors, email marketing services, and analytics tools as additional service providers along with associated applications (the "Service").
+                True Purpose also utilizes various third-party platforms and service providers including but not limited to scheduling platforms, payment processors, email marketing services, and analytics tools as additional service providers along with associated applications (the "Service").
               </p>
 
               <p className="text-sm leading-relaxed mb-8">
@@ -88,7 +88,7 @@ export default function PrivacyPolicy() {
               <div className="space-y-4">
                 <div>
                   <h3 className="font-medium text-gray-900 text-sm mb-2">Service</h3>
-                  <p className="text-sm leading-relaxed">Service means the andrew-dietz.com website, along with happiness coaching sessions, online courses, workshops, mobile applications, and associated services provided and operated by Andrew Dietz along with our third-party service providers.</p>
+                  <p className="text-sm leading-relaxed">Service means the tpurpose.com website, along with happiness coaching sessions, online courses, workshops, mobile applications, and associated services provided and operated by True Purpose along with our third-party service providers.</p>
                 </div>
                 <div>
                   <h3 className="font-medium text-gray-900 text-sm mb-2">Personal Data</h3>
@@ -194,7 +194,7 @@ export default function PrivacyPolicy() {
                 <span className="w-7 h-7 bg-gray-900 text-white rounded-full flex items-center justify-center text-xs font-medium mr-3">4</span>
                 Use of Data
               </h2>
-              <p className="text-sm leading-relaxed mb-4">Andrew Dietz uses the collected data for various purposes:</p>
+              <p className="text-sm leading-relaxed mb-4">True Purpose uses the collected data for various purposes:</p>
               <div className="space-y-2 ml-4">
                 <div className="flex items-start space-x-3">
                   <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
@@ -238,7 +238,7 @@ export default function PrivacyPolicy() {
                 Legal Basis for Processing Personal Data Under GDPR
               </h2>
               <p className="text-sm leading-relaxed mb-4">If you are from the European Economic Area (EEA), Andrew Dietz's legal basis for collecting and using the personal information described in this Privacy Policy depends on the Personal Data we collect and the specific context in which we collect it.</p>
-              <p className="text-sm leading-relaxed mb-4">Andrew Dietz may process your Personal Data because:</p>
+              <p className="text-sm leading-relaxed mb-4">True Purpose may process your Personal Data because:</p>
               <div className="space-y-2 ml-4">
                 <div className="flex items-start space-x-3">
                   <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
@@ -269,8 +269,8 @@ export default function PrivacyPolicy() {
                 <span className="w-7 h-7 bg-gray-900 text-white rounded-full flex items-center justify-center text-xs font-medium mr-3">6</span>
                 Retention of Data
               </h2>
-              <p className="text-sm leading-relaxed mb-4">Andrew Dietz will retain your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your Personal Data to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our legal agreements and policies.</p>
-              <p className="text-sm leading-relaxed">Andrew Dietz will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of our Service, or we are legally obligated to retain this data for longer time periods.</p>
+              <p className="text-sm leading-relaxed mb-4">True Purpose will retain your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your Personal Data to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our legal agreements and policies.</p>
+              <p className="text-sm leading-relaxed">True Purpose will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of our Service, or we are legally obligated to retain this data for longer time periods.</p>
             </div>
 
             {/* Service Providers */}
@@ -432,7 +432,7 @@ export default function PrivacyPolicy() {
               </h2>
               
               <h3 className="font-medium text-gray-900 text-sm mb-3">Legal Requirements</h3>
-              <p className="text-sm leading-relaxed mb-4">Andrew Dietz may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
+              <p className="text-sm leading-relaxed mb-4">True Purpose may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
               <div className="space-y-2 ml-4 mb-4">
                 <div className="flex items-start space-x-3">
                   <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
@@ -440,7 +440,7 @@ export default function PrivacyPolicy() {
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-sm">To protect and defend the rights or property of Andrew Dietz</p>
+                  <p className="text-sm">To protect and defend the rights or property of True Purpose</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
@@ -505,7 +505,7 @@ export default function PrivacyPolicy() {
                   <div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
                   <span className="text-sm">Website: </span>
                   <a 
-                    href="https://www.andrew-dietz.com" 
+                    href="https://www.tpurpose.com" 
                     className="text-gray-900 hover:text-gray-700 transition-colors duration-200 font-medium text-sm underline decoration-gray-300 hover:decoration-gray-500"
                   >
                     andrew-dietz.com
@@ -524,7 +524,7 @@ export default function PrivacyPolicy() {
       {/* Footer */}
       <div className="text-center pb-8">
         <p className="text-xs text-gray-500">
-          © 2025 Andrew Dietz. All rights reserved.
+          © 2025 True Purpose. All rights reserved.
         </p>
       </div>
     </main>
