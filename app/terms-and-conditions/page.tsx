@@ -6,10 +6,10 @@ import type { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | Andrew Dietz Services & Website",
-  description: "Understand the policies governing your use of Andrew Dietz’s website, workshops, and mentorship programs.",
+  title: "Terms & Conditions | True Purpose Services & Website",
+  description: "Understand the policies governing your use of True Purpose’s website, workshops, and mentorship programs.",
   alternates: {
-    canonical: "https://www.andrew-dietz.com/terms-and-conditions",
+    canonical: "https://tpurpose.com/terms-and-conditions",
   },
   robots: {
     index: true,
@@ -29,7 +29,7 @@ const TermsAndConditions: React.FC = () => {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Terms and Conditions",
-    "description": "Terms and Conditions for Andrew Dietz website and services",
+    "description": "Terms and Conditions for True Purpose website and services",
     "datePublished": "2025-08-13",
     "inLanguage": "en-US"
   }
@@ -49,8 +49,8 @@ const TermsAndConditions: React.FC = () => {
         Also view our <a href="/privacy-policy" className="text-blue-600 underline">Privacy Policy</a>.
       </p>
       <p className="mb-6">
-        Emails sent to Andrew Dietz or to any official mailing addresses of
-        Andrew Dietz shall become the property of Andrew Dietz and may be used
+        Emails sent to True Purpose or to any official mailing addresses of
+        True Purpose shall become the property of True Purpose and may be used
         at his discretion.
       </p>
 
@@ -58,7 +58,7 @@ const TermsAndConditions: React.FC = () => {
       <p className="mb-4">
         The content and all trademarks, service marks, logos, pictures,
         slogans, written material, and other content used on this website are
-        the property of Andrew Dietz unless otherwise stated. Andrew Dietz
+        the property of True Purpose unless otherwise stated. True Purpose
         respects the intellectual property of others and asks that all visitors
         and users do the same. Failure to comply with U.S. and international
         copyright, trademark, or other laws may subject you to criminal and/or
@@ -83,7 +83,7 @@ const TermsAndConditions: React.FC = () => {
       <p className="mb-4">
         The content and all trademarks, service marks, logos, slogans, and
         other marks used on the Service are the property of their respective
-        owners. “Andrew Dietz” is a trademark of the Owner. Any unauthorized
+        owners. “True Purpose” is a trademark of the Owner. Any unauthorized
         use may violate copyright, trademark, and other applicable laws, and
         may result in legal action.
       </p>
@@ -146,7 +146,7 @@ const TermsAndConditions: React.FC = () => {
       </h2>
       <p className="mb-4">
         By submitting content, messages, or other materials to the Service, you
-        grant Andrew Dietz a worldwide, royalty-free, perpetual, non-exclusive
+        grant True Purpose a worldwide, royalty-free, perpetual, non-exclusive
         license to use, reproduce, adapt, and display such materials in any
         media, now known or later developed, for both commercial and
         non-commercial purposes. You represent that you own or have permission
@@ -155,7 +155,7 @@ const TermsAndConditions: React.FC = () => {
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">Edits to Content</h2>
       <p className="mb-4">
-        Andrew Dietz reserves the right to edit, remove, or relocate any
+        True Purpose reserves the right to edit, remove, or relocate any
         content posted to the Service at his discretion without notice.
       </p>
 
@@ -169,7 +169,7 @@ const TermsAndConditions: React.FC = () => {
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">Indemnification</h2>
       <p className="mb-4">
-        You agree to indemnify and hold harmless Andrew Dietz, his affiliates,
+        You agree to indemnify and hold harmless True Purpose, his affiliates,
         employees, and agents from any claims, damages, or expenses (including
         legal fees) arising from your use of the Service, your submissions, or
         your violation of this Agreement.
@@ -182,7 +182,7 @@ const TermsAndConditions: React.FC = () => {
         THE SERVICE IS PROVIDED “AS IS” WITHOUT ANY WARRANTIES, EXPRESS OR
         IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF ACCURACY,
         RELIABILITY, TITLE, MERCHANTABILITY, NON-INFRINGEMENT, OR FITNESS FOR A
-        PARTICULAR PURPOSE. Andrew Dietz does not warrant that the Service will
+        PARTICULAR PURPOSE. True Purpose does not warrant that the Service will
         be uninterrupted, error-free, or free from harmful components.
       </p>
 
@@ -198,7 +198,7 @@ const TermsAndConditions: React.FC = () => {
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">Release</h2>
       <p className="mb-4">
-        You agree to release Andrew Dietz, his affiliates, and agents from all
+        You agree to releaseTrue Purpose, his affiliates, and agents from all
         claims, known or unknown, arising from or related to your use of the
         Service.
       </p>
@@ -225,7 +225,7 @@ const TermsAndConditions: React.FC = () => {
       <p className="mb-4">
         Comments, opinions, or statements posted on discussion boards or forums
         are solely those of the individual authors and do not necessarily
-        reflect the views of Andrew Dietz. We make no warranties regarding
+        reflect the views of True Purpose. We make no warranties regarding
         products, services, or advice mentioned by third parties.
       </p>
 
