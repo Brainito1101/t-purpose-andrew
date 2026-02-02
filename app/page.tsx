@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "True Purpose | Live With Purpose, Energy & Real Happiness",
   description: "Discover True Purpose’s proven methods for lasting happiness, fulfillment, and purpose. Workshops, mentorship, and guidance to help you reconnect with yourself.",
   alternates: {
-    canonical: "https://www.andrew-dietz.com/",
+    canonical: "https://www.tpurpose.com/",
   },
   robots: {
     index: true,
@@ -34,10 +34,10 @@ export default function HomePage() {
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://www.andrew-dietz.com/#organization",
-        "name": "Andrew Dietz",
-        "url": "https://www.andrew-dietz.com/",
-        "email": "info@andrew-dietz.com",
+        "@id": "https://www.tpurpose.com/#organization",
+        "name": "True Purpose",
+        "url": "https://www.tpurpose.com/",
+        "email": "info@tpurpose.com",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Hunt Valley",
@@ -48,76 +48,76 @@ export default function HomePage() {
       },
       {
         "@type": "Person",
-        "@id": "https://www.andrew-dietz.com/#andrew-dietz",
+        "@id": "https://www.tpurpose.com/#andrew-dietz",
         "name": "Andrew Dietz",
         "description": "Entrepreneur, author, financial advisor, researcher and mentor helping individuals create lasting happiness and fulfillment.",
         "jobTitle": "Author, Speaker & Mentor",
-        "url": "https://www.andrew-dietz.com/",
+        "url": "https://www.tpurpose.com/",
         "worksFor": {
-          "@id": "https://www.andrew-dietz.com/#organization"
+          "@id": "https://www.tpurpose.com/#organization"
         }
       },
       {
         "@type": "WebSite",
-        "@id": "https://www.andrew-dietz.com/#website",
-        "url": "https://www.andrew-dietz.com/",
-        "name": "Andrew Dietz",
+        "@id": "https://www.tpurpose.com/#website",
+        "url": "https://www.tpurpose.com/",
+        "name": "True Purpose",
         "publisher": {
-          "@id": "https://www.andrew-dietz.com/#organization"
+          "@id": "https://www.tpurpose.com/#organization"
         },
         "inLanguage": "en"
       },
       {
         "@type": "WebPage",
-        "@id": "https://www.andrew-dietz.com/#webpage",
-        "url": "https://www.andrew-dietz.com/",
-        "name": "Andrew Dietz | Live With Purpose, Energy & Real Happiness",
-        "description": "Transform your life with Andrew Dietz's methods for lasting happiness and fulfillment. Workshops and mentorship to help you reconnect with yourself.",
+        "@id": "https://www.tpurpose.com/#webpage",
+        "url": "https://www.tpurpose.com/",
+        "name": "True Purpose | Live With Purpose, Energy & Real Happiness",
+        "description": "Transform your life with True Purpose's methods for lasting happiness and fulfillment. Workshops and mentorship to help you reconnect with yourself.",
         "isPartOf": {
-          "@id": "https://www.andrew-dietz.com/#website"
+          "@id": "https://www.tpurpose.com/#website"
         },
         "about": {
-          "@id": "https://www.andrew-dietz.com/#andrew-dietz"
+          "@id": "https://www.tpurpose.com/#andrew-dietz"
         },
         "publisher": {
-          "@id": "https://www.andrew-dietz.com/#organization"
+          "@id": "https://www.tpurpose.com/#organization"
         }
       },
       {
         "@type": "SiteNavigationElement",
-        "@id": "https://www.andrew-dietz.com/#sitenav",
+        "@id": "https://www.tpurpose.com/#sitenav",
         "name": "Main Navigation",
-        "url": "https://www.andrew-dietz.com/",
+        "url": "https://www.tpurpose.com/",
         "hasPart": [
           {
             "@type": "WebPage",
             "name": "Meet Andrew",
-            "url": "https://www.andrew-dietz.com/about"
+            "url": "https://www.tpurpose.com/about"
           },
           {
             "@type": "WebPage",
             "name": "Services",
-            "url": "https://www.andrew-dietz.com/services"
+            "url": "https://www.tpurpose.com/services"
           },
           {
             "@type": "WebPage",
             "name": "Workshop",
-            "url": "https://www.andrew-dietz.com/workshop"
+            "url": "https://www.tpurpose.com/workshop"
           },
           {
             "@type": "WebPage",
             "name": "Books",
-            "url": "https://www.andrew-dietz.com/books"
+            "url": "https://www.tpurpose.com/books"
           },
           {
             "@type": "WebPage",
             "name": "Blog",
-            "url": "https://www.andrew-dietz.com/blog"
+            "url": "https://www.tpurpose.com/blog"
           },
           {
             "@type": "WebPage",
             "name": "Contact",
-            "url": "https://www.andrew-dietz.com/contact"
+            "url": "https://www.tpurpose.com/contact"
           }
         ]
       }
@@ -136,7 +136,7 @@ export default function HomePage() {
       <AboutSection />
       <MotivationalQuotes />
       <ServicesSection headingLevel="h2" />
-      
+
       <TestimonialsSection />
       <BlogSection headingLevel="h2" />
       <GHLPopupForm />

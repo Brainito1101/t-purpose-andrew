@@ -4,9 +4,10 @@ import { useState } from "react";
 import WorkshopConfirmation from "./WorkshopConfirmation";
 import VIPUpgrade from "./VIPUpgrade";
 import CoachingAddons from "./CoachingAddons";
+import PaymentCheckout from "./PaymentCheckout";
 import SuccessScreen from "./SuccessScreen";
 
-export type FlowStep = "workshop" | "vip" | "addons" | "success";
+export type FlowStep = "workshop" | "vip" | "addons" | "payment" | "success";
 
 export interface SelectedAddons {
   vip: boolean;
@@ -37,11 +38,15 @@ const UpsellFlow = () => {
 
   const handleAddonsComplete = (addons: Partial<SelectedAddons>) => {
     setSelectedAddons(prev => ({ ...prev, ...addons }));
-    setCurrentStep("success");
+    setCurrentStep("payment");
   };
 
   const handleSkipAddons = () => {
-    setCurrentStep("success");
+    setCurrentStep("payment");
+  };
+
+  const handleBackToAddons = () => {
+    setCurrentStep("addons");
   };
 
   return (
@@ -57,6 +62,12 @@ const UpsellFlow = () => {
           isVIP={selectedAddons.vip}
           onComplete={handleAddonsComplete}
           onSkip={handleSkipAddons}
+        />
+      )}
+      {currentStep === "payment" && (
+        <PaymentCheckout
+          selectedAddons={selectedAddons}
+          onBack={handleBackToAddons}
         />
       )}
       {currentStep === "success" && (

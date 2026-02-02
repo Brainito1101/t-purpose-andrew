@@ -90,7 +90,7 @@ const CoachingAddons = ({ isVIP, onComplete, onSkip }: CoachingAddonsProps) => {
         <h1 className="text-3xl md:text-4xl font-bold mb-4 chrome-text animate-slide-up">
           Accelerate Your Transformation
         </h1>
-        
+
         <p className="text-lg text-muted-foreground mb-4 animate-slide-up" style={{ animationDelay: "0.1s" }}>
           Select any coaching options to continue your journey
         </p>
@@ -106,27 +106,25 @@ const CoachingAddons = ({ isVIP, onComplete, onSkip }: CoachingAddonsProps) => {
 
         <div className="space-y-4 mb-10">
           {coachingOptions.map((option, index) => (
-            <div 
+            <div
               key={option.key}
               onClick={() => handleToggle(option.key)}
-              className={`card-premium cursor-pointer text-left transition-all duration-300 animate-slide-up ${
-                selectedOptions[option.key] 
-                  ? "chrome-border glow-effect" 
+              className={`card-premium cursor-pointer text-left transition-all duration-300 animate-slide-up ${selectedOptions[option.key]
+                  ? "chrome-border glow-effect"
                   : "hover:border-muted-foreground/30"
-              }`}
+                }`}
               style={{ animationDelay: `${0.2 + index * 0.1}s` }}
             >
               <div className="flex items-start gap-4">
-                <div className={`w-6 h-6 rounded border-2 flex items-center justify-center flex-shrink-0 mt-1 transition-colors ${
-                  selectedOptions[option.key] 
-                    ? "bg-primary border-primary" 
+                <div className={`w-6 h-6 rounded border-2 flex items-center justify-center flex-shrink-0 mt-1 transition-colors ${selectedOptions[option.key]
+                    ? "bg-primary border-primary"
                     : "border-muted-foreground"
-                }`}>
+                  }`}>
                   {selectedOptions[option.key] && (
                     <Check className="w-4 h-4 text-primary-foreground" />
                   )}
                 </div>
-                
+
                 <div className="flex-grow">
                   <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2">
                     <div>
@@ -162,14 +160,14 @@ const CoachingAddons = ({ isVIP, onComplete, onSkip }: CoachingAddonsProps) => {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up" style={{ animationDelay: "0.6s" }}>
           {hasSelection ? (
-            <button 
+            <button
               onClick={() => onComplete(selectedOptions)}
               className="inline-flex items-center justify-center rounded-lg bg-[#191970] px-8 py-4 text-lg font-semibold text-white transition-colors hover:bg-[#0f0f4d]"
             >
               Add to My Order
             </button>
           ) : null}
-          <button 
+          <button
             onClick={onSkip}
             className="px-8 py-4 rounded-lg font-semibold text-muted-foreground hover:text-foreground transition-colors"
           >
