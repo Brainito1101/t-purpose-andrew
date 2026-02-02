@@ -2,9 +2,10 @@
 
 import { useSearchParams } from "next/navigation";
 import Image from "next/image";
-import { CheckCircle, Mail, Calendar, ArrowRight } from "lucide-react";
+import { CheckCircle, Mail, Calendar, ArrowRight, Loader2 } from "lucide-react";
+import { Suspense } from "react";
 
-export default function SuccessPage() {
+function SuccessContent() {
     const searchParams = useSearchParams();
     const sessionId = searchParams.get("session_id");
 
@@ -73,5 +74,19 @@ export default function SuccessPage() {
                 </p>
             </div>
         </div>
+    );
+}
+
+export default function SuccessPage() {
+    return (
+        <Suspense
+            fallback={
+                <div className="min-h-screen flex items-center justify-center bg-background">
+                    <Loader2 className="w-10 h-10 animate-spin text-[#191970]" />
+                </div>
+            }
+        >
+            <SuccessContent />
+        </Suspense>
     );
 }
