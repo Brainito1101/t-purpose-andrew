@@ -3,7 +3,6 @@ import type { Metadata } from "next"
 import { Inter, Geist, Roboto, Playfair_Display, Poppins, Raleway, Montserrat } from "next/font/google"
 import "./globals.css"
 import LayoutShell from "@/components/layout-shell"
-import LockScreen from "@/components/lock-screen"
 import Script from 'next/script'
 import { Analytics } from "@vercel/analytics/next"
 
@@ -117,11 +116,9 @@ export default function RootLayout({
             style={{ display: 'none', visibility: 'hidden' }}
           />
         </noscript>
-        <LockScreen>
-          <LayoutShell>
-            {children}
-          </LayoutShell>
-        </LockScreen>
+        <LayoutShell>
+          {children}
+        </LayoutShell>
         <Analytics />
       </body>
     </html>
