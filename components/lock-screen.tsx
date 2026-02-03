@@ -6,10 +6,8 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from "@/components/ui/card"
-import { useRouter } from "next/navigation"
 
 export default function LockScreen() {
-    const router = useRouter()
     const [username, setUsername] = useState("")
     const [password, setPassword] = useState("")
     const [error, setError] = useState("")
@@ -19,22 +17,30 @@ export default function LockScreen() {
     const handleLogin = async (e: React.FormEvent) => {
         e.preventDefault()
         setIsVerifying(true)
+        setError("")
 
-        // Simulate a brief delay for UX (and to make it feel like a real check)
-        await new Promise(resolve => setTimeout(resolve, 600))
+        try {
+            const response = await fetch('/api/auth/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ username, password }),
+            })
 
-        if (username === "tpurpose" && password === "weT19UP0bG8l") {
-            // Set cookie for middleware
-            document.cookie = `site_access=true; path=/; max-age=${60 * 60 * 24 * 30}; SameSite=Lax` // 30 days
+            const data = await response.json()
 
-            // Also keep sessionStorage for backward compatibility/redundancy if needed, but cookie is primary now
-            sessionStorage.setItem("is_authenticated", "true")
-
-            // Refresh to trigger middleware re-evaluation or redirect
-            router.refresh()
-            router.push("/")
-        } else {
-            setError("Invalid credentials")
+            if (data.success) {
+                // Redirect to home page
+                window.location.href = '/'
+            } else {
+                setError(data.error || 'Invalid credentials')
+                setShake(true)
+                setIsVerifying(false)
+                setTimeout(() => setShake(false), 500)
+            }
+        } catch (error) {
+            setError('Connection error. Please try again.')
             setShake(true)
             setIsVerifying(false)
             setTimeout(() => setShake(false), 500)
