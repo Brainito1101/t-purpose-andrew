@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Inter, Geist, Roboto, Playfair_Display, Poppins, Raleway, Montserrat } from "next/font/google"
 import "./globals.css"
 import LayoutShell from "@/components/layout-shell"
+import LockScreen from "@/components/lock-screen"
 import Script from 'next/script'
 import { Analytics } from "@vercel/analytics/next"
 
@@ -74,8 +75,8 @@ export default function RootLayout({
         />
 
         {/* Google Analytics Script */}
-        <Script 
-          async 
+        <Script
+          async
           src="https://www.googletagmanager.com/gtag/js?id=G-F1TGT1RMG7"
           strategy="afterInteractive"
         />
@@ -109,17 +110,19 @@ export default function RootLayout({
       </head>
       <body>
         <noscript>
-          <iframe 
+          <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-ML59DWDD"
-            height="0" 
-            width="0" 
-            style={{display: 'none', visibility: 'hidden'}}
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
           />
         </noscript>
-        <LayoutShell>
-          {children}
-        </LayoutShell>
-        <Analytics/>
+        <LockScreen>
+          <LayoutShell>
+            {children}
+          </LayoutShell>
+        </LockScreen>
+        <Analytics />
       </body>
     </html>
   )
