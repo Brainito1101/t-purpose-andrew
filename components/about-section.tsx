@@ -11,10 +11,8 @@ export default function AboutSection() {
           {/* Image Section */}
           <div className="relative w-full max-w-[280px] sm:max-w-sm mx-auto h-[240px] sm:h-[280px] md:h-[320px] lg:h-[400px]">
             <Image
-              src="/andrew-3.png"
-              alt="Happiness Coach"
-              fill
-              className="rounded-lg shadow-lg object-cover"
+              src=
+              "https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/695f9f0f7cc1b9c8df62522a.png"
               priority
             />
           </div>
