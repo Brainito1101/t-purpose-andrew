@@ -9,7 +9,7 @@ export default function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           
           {/* Image Section */}
-          <div className="relative w-full max-w-[300px] sm:max-w-sm mx-auto h-[240px] sm:h-[280px] md:h-[320px] lg:h-[400px]">
+          <div className="relative w-full max-w-[350px] sm:max-w-sm mx-auto h-[240px] sm:h-[280px] md:h-[320px] lg:h-[400px]">
             <Image
               src=
               "https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/695f9f0f7cc1b9c8df62522a.png"
