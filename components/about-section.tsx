@@ -14,7 +14,7 @@ export default function AboutSection() {
   <Image
     src="https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/695f9f0f7cc1b9c8df62522a.png"
     fill
-    className="object-contain ml-[-40px]"
+    className="object-contain ml-[-20px]"
     priority
   />
 </div>
