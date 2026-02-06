@@ -10,7 +10,7 @@ export default function AboutSection() {
           
           {/* Image Section */}
           {/* <div className="relative w-full max-w-[350px] sm:max-w-sm mx-auto h-[240px] sm:h-[280px] md:h-[320px] lg:h-[400px]"> */}
-           <div className="relative w-full max-w-[450px] sm:max-w-md mx-auto h-[320px] sm:h-[380px] md:h-[420px] lg:h-[500px] flex justify-start">
+           <div className="relative w-full max-w-[450px] sm:max-w-md mx-auto h-[350px] sm:h-[400px] md:h-[450px] lg:h-[550px] flex justify-start">
             <Image
               src="https://storage.googleapis.com/msgsndr/wcFeePbK2OSXkafPwdjz/media/695f9f0f7cc1b9c8df62522a.png"
                fill
