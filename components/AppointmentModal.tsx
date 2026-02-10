@@ -45,7 +45,7 @@ const AppointmentModal: React.FC<AppointmentModalProps> = ({ isOpen, onClose }) 
 
         <div className="pt-12"> {/* extra top padding for close button */}
           <iframe
-            src="https://api.leadconnectorhq.com/widget/booking/5ytJZwpa9NxGaaCnKmIn"
+            src="https://api.leadconnectorhq.com/widget/booking/qAYtYRXb5Xxi7baU7n5B"
             style={{
               width: '100%',
               height: '90vh',
@@ -53,7 +53,7 @@ const AppointmentModal: React.FC<AppointmentModalProps> = ({ isOpen, onClose }) 
               display: 'block',
             }}
             scrolling="no"
-            id="5ytJZwpa9NxGaaCnKmIn_1754480480073"
+            id="qAYtYRXb5Xxi7baU7n5B_1770718720838"
             title="Appointment Booking"
             allow="fullscreen"
           ></iframe>
