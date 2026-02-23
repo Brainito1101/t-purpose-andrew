@@ -11,7 +11,7 @@ const blogPosts = [
     excerpt:
       "Awaken the Purpose Within: Why High Achievers Are Seeking Something More.",
     image: "https://storage.googleapis.com/msgsndr/xQlIEgJuDpymPFH4Fs60/media/689f23187bb59e4aaef78935.webp?height=200&width=300",
-    date: "May 15, 2025",
+    date: "Jan 15, 2025",
     slug: "awaken-the-purpose",
   },
   {
@@ -19,14 +19,14 @@ const blogPosts = [
     excerpt:
       "The Hidden Cost of Success: What You're Missing While Winning.",
     image: "https://storage.googleapis.com/msgsndr/xQlIEgJuDpymPFH4Fs60/media/689f1c2bc6ba4e1075b0fc68.webp?height=200&width=300",
-    date: "June 5, 2025",
+    date: "Feb 5, 2025",
     slug: "the-hidden-cost-of-success",
   },
   {
     title: "The Art of Inner Clarity",
     excerpt: "The Art of Inner Clarity: How Emotional Awareness Shapes Exceptional Leadership.",
     image: "https://storage.googleapis.com/msgsndr/xQlIEgJuDpymPFH4Fs60/media/689f1c2b5bdfcfa148e32887.webp?height=200&width=300",
-    date: "July 10, 2025",
+    date: "March 10, 2025",
     slug: "the-art-of-inner-clarity",
   },
 ]

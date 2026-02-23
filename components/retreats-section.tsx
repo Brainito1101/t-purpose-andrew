@@ -17,7 +17,7 @@ const retreats = [
     location: "Colorado USA",
     type: "Advanced Retreat",
     dateRange: "",
-    ticketsAvailable: true,
+    ticketsAvailable: false,
   },
   {
     month: "Mar",
