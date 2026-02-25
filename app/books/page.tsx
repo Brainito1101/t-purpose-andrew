@@ -65,7 +65,7 @@ export default function BookPage() {
             />
             <h3 className="text-xl font-semibold mb-2 text-[#191970]">The Achievement Trap</h3>
             <p className="text-gray-500 mb-4">Coming soon</p>
-            <Link href="https://link.fastpaydirect.com/payment-link/68c03563219709986ee1b7e1" target="_blank" rel="noopener noreferrer">
+            <Link href="https://link.fastpaydirect.com/payment-link/694a63c235b562c128100639" target="_blank" rel="noopener noreferrer">
               <Button className="bg-[#191970] hover:bg-[#15155c] text-white w-full">
                 Pre-Order Now
               </Button>
