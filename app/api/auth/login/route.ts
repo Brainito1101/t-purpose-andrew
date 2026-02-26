@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server'
 import { cookies } from 'next/headers'
 
-const VALID_USERNAME = 'tpurpose'
-const VALID_PASSWORD = 'weT19UP0bG8l'
+const VALID_USERNAME = 'Brainito'
+const VALID_PASSWORD = 'Brainito@9352'
 
 export async function POST(request: Request) {
     try {
